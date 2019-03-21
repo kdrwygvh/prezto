@@ -15,3 +15,5 @@ fi
 autoload -Uz promptinit
   promptinit
   prompt kylewest
+
+compinit
