@@ -17,3 +17,7 @@ autoload -Uz promptinit
   prompt kylewest
 
 compinit
+
+function bbshellcheck {
+    shellcheck -s bash -f gcc "$@" | bbresults
+}

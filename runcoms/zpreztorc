@@ -37,8 +37,7 @@ zstyle ':prezto:load' pmodule \
   'gnu-utility' \
   'utility' \
   'completion' \
-  'prompt' \
-  'screen'
+  'prompt'
 
 #
 # Autosuggestions
